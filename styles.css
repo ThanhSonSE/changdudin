@@ -1,0 +1,72 @@
+  /* Animation for background */
+  @keyframes cuteBackgroundAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+body {
+    animation: cuteBackgroundAnimation 10s infinite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBEA;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    background-color: #FADBD8;
+  }
+  
+  .avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .product {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    background-color: #E8DAEF;
+  }
+
+  a:hover {
+    color: blue;
+    background-color: #3498db;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FADBD8;
+  }
+
+  .product img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+
+  .product:hover img {
+    transform: scale(1.05); /* Zoom lên 5% */
+  }
+
